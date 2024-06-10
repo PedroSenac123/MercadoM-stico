@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MistyBox Classic</title>
+    <link rel="stylesheet" href="/Mercado/css/style-product3.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="header-tittle" onclick="redirecionarParaPagina('Mercado místico.html')">MistyBox</h1>
+        <img src="/Mercado/assets/cart.webp" alt=""  onclick="openPageCart()">
+    </header>
+    
+    <section id="section-product-page">
+        <div class="img-product-page">
+            <img src="/Mercado/assets/magic-swords.png" alt="Produto 1">
+        </div>
+        <div>
+            <h2 id="new-product3">MistyBox Legendary Swords</h2>
+            <p>As espadas encantadas foram construídas com matérias primas extraterrestres e moldadas com design feito por nossos operários inspirados nas lendas da Idade Média. São 3 itens em um: a espada dourada que consegue cortar qualquer material com facilidade, a espada de magma que possui componentes químicos similares ao fogo e a espada de um olho demoníaco que tem propriedades mágicas.</p>
+        </div>
+        <div class="side-div-buy">
+            <h2 id="price-product3">Preço: 20.400,00</h2>
+            <h2 id="status-storage">Em estoque</h2>
+            <h2 id="compra-internacional">Compra internacional</h2>
+            <div class="button-container">
+                <button class="button button-1" onclick="adicionarProduto3()">Adicionar ao Carrinho</button>
+                <button class="button button-2" onclick="BuyNow3()">Comprar Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p>Produto adicionado ao carrinho. O que você deseja fazer?</p>
+            <button onclick="continuarNavegando()">Continuar Navegando</button>
+            <button onclick="openPageCart()">Ir para o Carrinho</button>
+        </div>
+    </div>
+    
+
+    <script src="/Mercado/script.js"></script>
+    <script src="/Mercado/carrinho.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MistyBox Classic</title>
+    <link rel="stylesheet" href="/Mercado/css/style-product4.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="header-tittle" onclick="redirecionarParaPagina('Mercado místico.html')">MistyBox</h1>
+        <img src="/Mercado/assets/cart.webp" alt=""  onclick="openPageCart()">
+    </header>
+    
+    <section id="section-product-page">
+        <div class="img-product-page">
+            <img src="/Mercado/assets/box.png" alt="Produto 4">
+        </div>
+        <div>
+            <h2 id="new-product4">MistyBox Classic</h2>
+            <p>  O nosso produto mais vendido é a caixa misteriosa mais famosa do mundo, contendo diversos itens mágicos e desconhecidos. Todas as unidades possuem pelo menos 13 itens variados com as mais diversas funcionalidades, todos feitos a partir de capiros testalais, um elemento químico, mas com substâncias desconhecidas de uma das terras extraterrestres, que produz energia autossuficiente. Geralmente os itens mais comuns são: cartas que mudam de cor ou número, capa invisível, tinta de olho, componentes químicos que reduzem ou aumentam o tamanho de objetos e etc.
+                Como diz o nome, a MistyBox Classic é simplesmente clássica, e vai lhe proporcionar experiências divertidas jamais vistas antes.</p>
+        </div>
+        <div class="side-div-buy">
+            <h2 id="price-product4">Preço: 3.000,00</h2>
+            <h2 id="status-storage">Em estoque</h2>
+            <h2 id="compra-internacional">Compra internacional</h2>
+            <div class="button-container">
+
+                <button class="button button-1" onclick="adicionarProduto4()">Adicionar ao Carrinho</button>
+                <button class="button button-2" onclick="BuyNow4()">Comprar Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p>Produto adicionado ao carrinho. O que você deseja fazer?</p>
+            <button onclick="continuarNavegando()">Continuar Navegando</button>
+            <button onclick="openPageCart()">Ir para o Carrinho</button>
+        </div>
+    </div>
+    
+
+    <script src="/Mercado/script.js"></script>
+    <script src="/Mercado/carrinho.js"></script>
+</body>
+</html>

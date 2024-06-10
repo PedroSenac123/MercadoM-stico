@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MistyBox Classic</title>
+    <link rel="stylesheet" href="/Mercado/css/style-product6.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="header-tittle" onclick="redirecionarParaPagina('Mercado místico.html')">MistyBox</h1>
+        <img src="/Mercado/assets/cart.webp" alt=""  onclick="openPageCart()">
+    </header>
+    
+    <section id="section-product-page">
+        <div class="img-product-page">
+            <img src="/Mercado/assets/TeleportMachine.png" alt="Produto 1">
+        </div>
+        <div>
+            <h2 id="new-product6">MistyBox Teleport & Move Machines</h2>
+            <p>Este produto é uma tecnologia movida à poderosas energias capazes de teletransportar indivíduos e objetos em uma distância controlada de até 20km. Contém um manual de instruções de como manusear o produto, onde é possível controlar a distância que quer ser teletransportado ou teletransportar algo.</p>
+        </div>
+        <div class="side-div-buy">
+            <h2 id="price-product6">Preço: 14.900,00</h2>
+            <h2 id="status-storage">Em estoque</h2>
+            <h2 id="compra-internacional">Compra internacional</h2>
+            <div class="button-container">
+                <button class="button button-1" onclick="adicionarProduto6()">Adicionar ao Carrinho</button>
+                <button class="button button-2" onclick="BuyNow6()">Comprar Agora</button>
+            </div>
+        </div>
+    </section>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p>Produto adicionado ao carrinho. O que você deseja fazer?</p>
+            <button onclick="continuarNavegando()">Continuar Navegando</button>
+            <button onclick="openPageCart()">Ir para o Carrinho</button>
+        </div>
+    </div>
+    
+
+    <script src="/Mercado/script.js"></script>
+    <script src="/Mercado/carrinho.js"></script>
+</body>
+</html>
+    

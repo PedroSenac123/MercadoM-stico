@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MistyBox Magic Dragon Eggs premium</title>
+    <link rel="stylesheet" href="/Mercado/css/style-product1.css">
+</head>
+<body>
+    <header class="header">
+        <h1 id="header-tittle" onclick="redirecionarParaPagina('Mercado místico.html')">MistyBox</h1>
+        <img src="/Mercado/assets/cart.webp" alt=""  onclick="openPageCart()">
+    </header>
+    
+    <section id="section-product-page">
+        <div class="img-product-page">
+            <img src="/Mercado/assets/dragonEGG.png" alt="Produto 1">
+        </div>
+        <div>
+            <h2 id="new-product1">MistyBox Magic Dragon Eggs premium</h2>
+            <p> São ovos de uma espécie similar a aves originária de uma terra extraterrestre, onde possuem diferentes cores e elementos, sendo as principais gelado e magma. Os ovos quando são expostos a certa quantidade de luz por 2 semanas dão origem a filhotes muito parecidos com os seres mitológicos conhecidos como dragões no nosso planeta. Possuem grande porte, pesando entre 4 kg a 6 kg e não se sabem até quanto tempo vivem, mas quando adultos geralmente chegam a pesar mais de 70 kg. O produto vem embalado em uma caixa que contém comidas naturais destes seres e um manual detalhando suas características.</p>
+        </div>
+        <div class="side-div-buy">
+            <h2 id="price1">Preço: 6.830,00</h2>
+            <h2 id="status-storage">Em estoque</h2>
+            <h2 id="compra-internacional">Compra internacional</h2>
+            <div class="button-container">
+                <button class="button button-1"  id="adicionarProduto1">Adicionar ao Carrinho</button>
+                <button class="button button-2" onclick="BuyNow1()">Comprar Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <h2>Carrinho de Compras</h2>
+    <div id="cart"></div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <p>Produto adicionado ao carrinho. O que você deseja fazer?</p>
+            <button onclick="continuarNavegando()">Continuar Navegando</button>
+            <button id="adicionar1">Ir para o Carrinho</button>
+        </div>
+    </div>
+
+    <script src="/Mercado/script.js"></script>
+    <script src="/Mercado/js/produto.js"></script>
+</body>
+</html>
